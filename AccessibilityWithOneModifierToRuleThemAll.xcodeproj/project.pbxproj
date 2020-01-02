@@ -13,6 +13,8 @@
 		95928E8B23BE315300549FD2 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 95928E8A23BE315300549FD2 /* Assets.xcassets */; };
 		95928E8E23BE315300549FD2 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 95928E8D23BE315300549FD2 /* Preview Assets.xcassets */; };
 		95928E9123BE315300549FD2 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 95928E8F23BE315300549FD2 /* LaunchScreen.storyboard */; };
+		95928E9923BE318200549FD2 /* A11yModifier.swift in Sources */ = {isa = PBXBuildFile; fileRef = 95928E9823BE318200549FD2 /* A11yModifier.swift */; };
+		95928E9B23BE31C600549FD2 /* A11yButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 95928E9A23BE31C600549FD2 /* A11yButton.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +26,8 @@
 		95928E8D23BE315300549FD2 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		95928E9023BE315300549FD2 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		95928E9223BE315300549FD2 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		95928E9823BE318200549FD2 /* A11yModifier.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = A11yModifier.swift; sourceTree = "<group>"; };
+		95928E9A23BE31C600549FD2 /* A11yButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = A11yButton.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -63,6 +67,8 @@
 				95928E8F23BE315300549FD2 /* LaunchScreen.storyboard */,
 				95928E9223BE315300549FD2 /* Info.plist */,
 				95928E8C23BE315300549FD2 /* Preview Content */,
+				95928E9823BE318200549FD2 /* A11yModifier.swift */,
+				95928E9A23BE31C600549FD2 /* A11yButton.swift */,
 			);
 			path = AccessibilityWithOneModifierToRuleThemAll;
 			sourceTree = "<group>";
@@ -146,7 +152,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				95928E9923BE318200549FD2 /* A11yModifier.swift in Sources */,
 				95928E8523BE315200549FD2 /* AppDelegate.swift in Sources */,
+				95928E9B23BE31C600549FD2 /* A11yButton.swift in Sources */,
 				95928E8723BE315200549FD2 /* SceneDelegate.swift in Sources */,
 				95928E8923BE315200549FD2 /* ContentView.swift in Sources */,
 			);
